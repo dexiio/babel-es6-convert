@@ -36,9 +36,9 @@ docker build -t your-image-name .
 
 ### Running
 
-To start the service using docker use:  
+To start the service using the public docker image use:  
 ```
-docker run -d --rm -p 8899:8899 --name es6-converter your-image-name
+docker run -d --rm -p 8899:8899 --name es6-converter dexi/es6-converter
 ```
 
 You should now be able to run scripts through the service via :
