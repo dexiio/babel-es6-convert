@@ -1,0 +1,22 @@
+{
+  "name": "es6supportservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-transform-exponentiation-operator": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.4",
+    "express": "^4.16.4",
+    "memory-cache": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
